@@ -29,12 +29,13 @@ setOrNot(number, n)
 
 #3
 
-def revBinary(n):
+def right(n):
     num = bin(n)[2:]
-    revBin = num[::-1]
-    revnum = int(revBin, 2)
-    return revnum
+    righmost = num[::-1]
+    rightmostn = int(rightmost, 2)
+    return rightmostn
 
-revnum = revBinary(13)
-print("Originial number: {}".format(13))
-print("Reversed Number: {}".format(revnum))
+n = int(input("Enter a digit: "))
+rightmostn = right(n)
+print("Originial number: {}".format(n))
+print("Reversed Number: {}".format(rightmostn))
