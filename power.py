@@ -30,3 +30,5 @@ elif power2(n1) == True and power4(n1) == False:
     print("Power of 2 but not power of 4")
 else:
     print("Power of either")
+
+
